@@ -1,5 +1,11 @@
 # hexo-theme-polarbear
 
+## INFO
+
+Self-use Hexo theme with MathJax support.
+
+Forked from: https://github.com/frostfan/hexo-theme-polarbear
+
 > A light theme bases on Even, designed by Giuem.
 
 [在线预览 Demo](https://d2fan.com)
