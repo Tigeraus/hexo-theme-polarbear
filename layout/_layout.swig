@@ -26,4 +26,5 @@
     {% include '_script/libs.swig' %}
     {% include '_script/theme.swig' %}
   </body>
+  {% include '_partial/after_footer.swig' %}
 </html>
