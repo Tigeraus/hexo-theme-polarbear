@@ -37,7 +37,12 @@
     margin: $global-content-margin;
     font-weight: 400;
     font-size: $site-title-size;
-    color: rgba(0, 0, 0, 0.7);
+    color: $site-title-color;
+}
+
+.site-logo {
+    color:$site-title-color;
+    font-weight: 500;
 }
 
 #nav-top {
@@ -53,7 +58,7 @@
         	margin-left: 30px;
         	display: inline-block;
             a {
-                color: rgba(0, 0, 0, 0.6);
+                color: $global-menu-color;
             }
         }
     }

@@ -41,9 +41,9 @@ widget_custom:
 # Theme Settings
 # ===========================================
 # theme styling
-# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
+# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet | Huzi Color
 theme:
-  color: Dark Violet
+  color: Huzi Red
   fancybox: false
 
 # ===========================================

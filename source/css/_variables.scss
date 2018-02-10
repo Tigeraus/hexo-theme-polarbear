@@ -12,7 +12,9 @@ $theme-color-map: (
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
-  'Dark Violet': #9932CC #f5f4fa
+  'Dark Violet': #9932CC #f5f4fa,
+  'Huzi Color': #44091D #FFFFFF,
+  'Huzi Red': #E1445C #FFFFFF
 );
 
 // Check theme color config.
@@ -35,15 +37,21 @@ $white: #fefefe !default;
 $light-gray: #eee !default;
 $gray: #cacaca !default;
 $dark-gray: #aaa !default;
+$dark: #2E3C41 !default;
 
 
 // ========== Global ========== //
 // Text color of the body.
-$global-font-color: rgba(0, 0, 0, 0.75) !default;
+//$global-font-color: rgba(0, 0, 0, 0.75) !default;
+$global-font-color: #606D7E !default;
 
+
+
+//font color: #606D7E
+// head and foot color: #2E3C41
 // Font size attribute applied to '<html>' and '<body>'.
-$global-font-size: 16px !default;
-
+//$global-font-size: 16px !default;
+$global-font-size: 18px !default;
 // Global width of '<body>'.
 $global-body-width: 1000px !default;
 
@@ -61,8 +69,9 @@ $global-content-margin: 0 auto !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: "Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei","Microsoft Jhenghei",sans-serif !default;
-
+// $global-font-family: "Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei","Microsoft Jhenghei",sans-serif !default;
+$global-font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+//"Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif
 // Background color of the site.
 $global-background: $white !default;
 
@@ -83,6 +92,8 @@ $header-padding: 20px 20px !default;
 
 //Font size of the site title.
 $site-title-size: 24px !default;
+$site-title-color: $theme-color !default;
+$global-menu-color: $theme-color;
 
 // Header-height.
 $site-header-height: 65px !default;
@@ -102,13 +113,13 @@ $post-border: 1px solid $light-gray !default;
 $post-title-font-size: 1.3em !default;
 
 // Font weight of post title.
-$post-title-font-weight: 400 !default;
+$post-title-font-weight: bold !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;
 
 // Font color of the post time.
-$post-time-font-color: $dark-gray !default;
+$post-time-font-color: $dark !default;
 
 // Border bottom of the read more link when hover it.
 $post-readMore-border-bottom: 1px solid $theme-color !default;
@@ -143,7 +154,8 @@ $content-margin-bottom: 40px !default;
 
 // ========== Code ========== //
 // Color of the code.
-$code-color: #000 !default;
+//cutomized
+$code-color: #DD4860 !default;
 
 // Font size of code.
 $code-font-size: 13px !default;
@@ -185,8 +197,9 @@ $code-type-list: (
 ) !default;
 
 // Color of the code background.
-$code-background: $deputy-color !default;
-
+//$code-background: $deputy-color !default;
+//cutomized
+$code-background: #fff7f4 !default;
 
 // ========== Pagination ========== //
 // Padding of the pagination.
