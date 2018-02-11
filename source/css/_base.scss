@@ -31,6 +31,12 @@ a {
   text-decoration: none;
 }
 
+.caption {
+  // text-align: center;
+  font-size: $global-caption-font-size;
+  font-weight: $global-caption-font-weight;
+}
+
 @each $header, $size in $global-headings {
   #{$header} {
     font-size: $size;
