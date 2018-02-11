@@ -33,7 +33,7 @@ archive_generator:
 
 ## LaTeX 支持
 
-本主题采用Hexo-renderer-pandoc作为渲染器, 可以直接使用 `$$` 和 `$` 写行间和行内公式. 但是记住, 不要在本主题里使用Hexo.io提出的一些特殊的写法. 同时, 因为post开头的等号序列会影响pandoc-markdown的表格展示. 建议你使用标准表格而不是pandoc定制过的表格.
+本主题采用Hexo-renderer-pandoc作为渲染器, 可以直接使用 `$$` 和 `$` 写行间和行内公式. 但是记住, 不要在本主题里使用Hexo.io提出的一些特殊的写法.
 
 ## 版权说明
 

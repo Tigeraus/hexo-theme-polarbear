@@ -2,18 +2,31 @@
 // Header
 // ==============================
 
-.header {
-  @include clearfix;
-  padding: $header-padding;
-}
+// .header {
+//   @include clearfix;
+//   padding: $header-padding;
+// }
 
 
-@include max-screen() {
-  .header {
-    padding: 20px 0 0;
-    text-align: center;
+// @include max-screen() {
+//   .header {
+//     padding: 20px 0 0;
+//     text-align: center;
+//   }
+// }
+
+header {
+    @include clearfix;
+    padding: $header-padding;
   }
-}
+  
+  
+  @include max-screen() {
+    header {
+      padding: 20px 0 0;
+      text-align: center;
+    }
+  }
 
 #masthead {
     z-index: 9;
