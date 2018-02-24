@@ -17,14 +17,14 @@
 
 header {
     @include clearfix;
-    padding: $header-padding;
+    // padding: $header-padding;
   }
   
   
   @include max-screen() {
     header {
       padding: 20px 0 0;
-      text-align: center;
+      text-align: left;
     }
   }
 
